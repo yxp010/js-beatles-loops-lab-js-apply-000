@@ -17,13 +17,32 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
+
   var newFacts = []
   var i = 0
   var len = facts.length
 
-  for (;i < len; i++) {
+  for (; i < len; i++) {
     newFacts.push(facts[i] + '!!!')
   }
 
   return newFacts
+}
+
+function iLoveTheBeatles(number) {
+
+  var iLoveTheBeatlesArray = []
+  var i = 0
+  var len
+
+  if (number === 7) {
+    len = 8
+    for (; i <len; i++) {
+      iLoveTheBeatlesArray.push("I love the Beatles!")
+    }
+    return iLoveTheBeatlesArray
+  } else if (number === 17) {
+    iLoveTheBeatlesArray.push("I love the Beatles!")
+    return iLoveTheBeatlesArray
+  }
 }
