@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments) {
   var len = musicians.length
 
   for (; i < len; i++) {
-    beatlesPlay.push(musicians[i] + instruments[i])
+    beatlesPlay.push(musicians[i] + ' plays ' + instruments[i])
   }
 
   return beatlesPlay
