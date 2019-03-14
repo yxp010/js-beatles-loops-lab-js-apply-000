@@ -13,3 +13,5 @@ function theBeatlesPlay(musicians, instruments) {
 
   return beatlesPlay
 }
+
+theBeatlesPlay(musicians, theBeatlesPlay)
